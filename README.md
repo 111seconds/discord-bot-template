@@ -2,7 +2,7 @@
 ```python
 print("discord bot template!")
 print("with status changer >.<")
-print("for more help add anhediona on discord")
+print("for more help add 111seconds on discord")
 ```
 
 
