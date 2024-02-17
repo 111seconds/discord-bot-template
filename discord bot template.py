@@ -28,21 +28,17 @@ print("hi >.<")
 
 # commands
 
-# to add more commands, simply copy and paste line 30,31,32 and change "hi" to the command and "answer" to the bots answer!
+# to add more commands, simply copy and paste line 35,36,37 and change "hi" to the command and "answer" to the bots answer!
 
 # important: START ADDING COMMANDS HERE, NOT EARLIER!
 
 @client.command()
 async def hi(ctx): # command
-    await ctx.send("Answer")
+    await ctx.send("Answer") # bots reply to command
 
-@client.command()
-async def secondCommandExample(ctx): # how you should copy and paste it example
-    await ctx.send("Answer")
+# dont add commands after this line, commands should always be defined before running the bot!
+print("for more help message me on discord (@111seconds)")
 
-# dont add more commands after line 45!
-print("for more help dm anhediona on discord")
+client.run(token) # starts bot
 
-client.run(token)
-
-# make sure you have discord, requests and os installed! to do that simply open cmd and type "pip install os", "pip install discord" and "pip install requests"
+# make sure you have discord, requests and os installed! to do that simply open cmd and type "pip install os", "pip install discord.py" and "pip install requests"
