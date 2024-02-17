@@ -1,5 +1,3 @@
-# simple discord bot template
-
 import discord
 from discord.ext import commands
 import requests
@@ -9,10 +7,10 @@ os.system("cls") # cleans console
 
 token = "x" # bot token here!
 client_secret = "/" # leave blank if u are using token
-prefix = "!" # prefix
+prefix = "!" # prefix, if you dont want to use a prefix: leave it blank!
 
-status = discord.Status.online # status
-activity = discord.Activity # go to line 25 if u want to change the status
+status = discord.Status.online
+activity = discord.Activity
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix= prefix, intents = intents)
@@ -24,9 +22,9 @@ activity = activity
 async def on_ready():
   await client.change_presence(status=discord.Status.online, activity=discord.Game('status')) # if you want to change the status, change it here
 
-print("hi >.<")
+print("hi there fella")
 
-# commands
+# commands below
 
 # to add more commands, simply copy and paste line 35,36,37 and change "hi" to the command and "answer" to the bots answer!
 
