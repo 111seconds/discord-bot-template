@@ -35,7 +35,7 @@ async def hi(ctx): # command
     await ctx.send("Answer") # bots reply to command
 
 # dont add commands after this line, commands should always be defined before running the bot!
-print("for more help message me on discord (@111seconds)")
+print("for more help message me on discord (@saberscult)")
 
 client.run(token) # starts bot
 
