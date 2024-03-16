@@ -1,7 +1,7 @@
 
 ```python
 print("discord bot template")
-print("for more help add 111seconds on discord")
+print("for more help find my discord (https://guns.lol/saberscult)")
 ```
 
 
